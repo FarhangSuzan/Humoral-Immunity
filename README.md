@@ -3,6 +3,7 @@
 The three principal codes of this project are now available online, comprising: "Humoral, Primary, Sensitivity Analysis.ipynb" (using Julia within Jupyter Notebook), "Humoral, Secondary.ipynb" (also in Julia within Jupyter Notebook), and "Sigmoid.py" (written in Python).
 
 # Support 
-For further support, please reach out to Suzan Farhang-Sardroodi
+For further support, please reach out to [Suzan Farhang-Sardroodi](https://www.suzanfarhangsardroodi.com/).
+
 
 
