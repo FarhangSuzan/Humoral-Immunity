@@ -7,7 +7,9 @@ The three principal codes of this project are now available online, comprising: 
 For further support, please reach out to [Suzan Farhang-Sardroodi](https://www.suzanfarhangsardroodi.com/).
 
 # Citation 
-If you use the codes provided in this study, please cite: [Farhang-Sardroodi, Suzan, Deng, Xiaoyan, Portet, Stephanie, Arino, Julien, and Craig, Morgan. "Insights into B Cell and Antibody Kinetics Against SARS-CoV-2 Variants Using Mathematical Modelling." bioRxiv, 2023, pp. 2023-11](https://doi.org/10.1101/2023.11.10.566587)
+If you use the codes provided in this study, please cite: 
+
+[Farhang-Sardroodi, Suzan, Deng, Xiaoyan, Portet, Stephanie, Arino, Julien, and Craig, Morgan. "Insights into B Cell and Antibody Kinetics Against SARS-CoV-2 Variants Using Mathematical Modelling." bioRxiv, 2023, pp. 2023-11].Preprint available on bioRxiv doi [https://doi.org/10.1101/2023.11.10.566587](https://doi.org/10.1101/2023.11.10.566587)
 
 
 
