@@ -8,15 +8,15 @@ import matplotlib.scale as mscale
 
 csfont = {'fontname':'Arial'}
 #############################################################Antibody:
-Data1 = np.loadtxt("/APd1.txt")#Min
-Data2 = np.loadtxt("/APd2.txt")#Mean
-Data3 = np.loadtxt("/APd3.txt")#Max
+Data1 = np.loadtxt("APd1.txt")#Min
+Data2 = np.loadtxt("APd2.txt")#Mean
+Data3 = np.loadtxt("APd3.txt")#Max
 #
-Data4 = np.loadtxt("/ASd1.txt")#Min
-Data5 = np.loadtxt("/ASd2.txt")#Mean
-Data6 = np.loadtxt("/ASd3.txt")#Max
+Data4 = np.loadtxt("ASd1.txt")#Min
+Data5 = np.loadtxt("ASd2.txt")#Mean
+Data6 = np.loadtxt("ASd3.txt")#Max
 ####
-Data7 = np.loadtxt("/APds.txt")#Max
+Data7 = np.loadtxt("APds.txt")#Max
 
 
 x1 = Data1[:, 0];x2 = Data2[:, 0];x3 = Data3[:, 0];x4 = Data4[:, 0];x5 = Data5[:, 0];x6 = Data6[:, 0];x7 = Data7[:, 0];
@@ -197,5 +197,5 @@ ax.tick_params(direction="in")
 ax.tick_params(axis='both',labelsize=20)
 ax.set_yticklabels(['1','3','5','7','9'],**csfont,size=20)
 ax.set_yticks([10,10**3,10**5,10**7,10**9])
-plot.savefig('/FABS',bbox_inches='tight')
+plot.savefig('FABS',bbox_inches='tight')
 plot.show()
