@@ -121,5 +121,5 @@ pylab.legend(loc='best',fontsize=13)
 # plt.ylabel('Transmission rate', **csfont,fontsize=30);
 plt.tick_params(direction="in")
 # plt.grid()
-plt.savefig('/Users/suzan/Desktop/Fit.pdf',bbox_inches='tight')
+plt.savefig('Fit.pdf',bbox_inches='tight')
 pylab.show()
