@@ -9,8 +9,8 @@ from colorspacious import cspace_converter
 #Flu
 csfont = {'fontname':'Arial'}
 #############################################################Antibody:
-Data1 = np.loadtxt("/Users/suzan/Desktop/VW.txt")
-Data2 = np.loadtxt("/Users/suzan/Desktop/VO.txt")
+Data1 = np.loadtxt("/VW.txt")
+Data2 = np.loadtxt("/VO.txt")
 
 xdata1 = np.array([0.021098333,2.91018878,17.15370475,20.05633128,21.09605439,23.06551994,24.98129005,26.1613119,26.95041028,29.00561586,30.07503548])
 ydata1 = np.array([5.255981602,3.830362723,2.753954067,1.49398991,1.990539705,2.15545892,1.492177042,2.121190531,1.767525832,1.512781584,1.512387933])
@@ -60,6 +60,6 @@ ax.axhline(y=1.6, linewidth=3, color='gray',linestyle="--")
 ax.tick_params(direction="in")
 ax.tick_params(axis='both',labelsize=20)
 # plot.grid()
-# plt.savefig('/Users/suzan/Desktop/Primary.pdf')
-plot.savefig('/Users/suzan/Desktop/Primary.pdf',bbox_inches='tight')
+# plt.savefig('/Primary.pdf')
+plot.savefig('/Primary.pdf',bbox_inches='tight')
 plot.show()
